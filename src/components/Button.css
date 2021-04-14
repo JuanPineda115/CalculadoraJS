@@ -1,13 +1,13 @@
 .Button {
-    background: #cad2c5;
+    background: #363636;
     display: flex;
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(46, 43, 223, 0.514);
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
     width: 25%;
     font-size: 24px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
     height: 20%;
     min-width: 25%;
 }
@@ -21,6 +21,6 @@
 }
 
 .Button:hover {
-    background: #d7ddd3;
+    background: #01178f94;
     cursor: default;
 }
