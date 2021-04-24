@@ -34,7 +34,7 @@ class Calculator extends Component {
     render(){
         return(
             <div className="Calculator" data-testid="TodaCalc">
-                <Display data-testid="calcDisplay" data={this.state.data}/>
+                <Display data={this.state.data}/>
                 <Keypad>
                     <Button onClick={this.handleClick} label="C" value="clear" />
                     <Button onClick={this.handleClick} label="7" value="7" />

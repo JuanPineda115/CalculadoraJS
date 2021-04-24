@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from './Calculator';
+import Calculator from '../Calculator';
 import {screen, render, cleanup} from '@testing-library/react'
 import '@testing-library/jest-dom'
 
