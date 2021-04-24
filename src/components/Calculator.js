@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Button from './Button';
-import './Calculator.css';
 import Display from './Display';
 import Keypad from './Keypad';
 
@@ -34,8 +33,8 @@ class Calculator extends Component {
     }
     render(){
         return(
-            <div className="Calculator">
-                <Display data={this.state.data}/>
+            <div className="Calculator" data-testid="TodaCalc">
+                <Display data-testid="calcDisplay" data={this.state.data}/>
                 <Keypad>
                     <Button onClick={this.handleClick} label="C" value="clear" />
                     <Button onClick={this.handleClick} label="7" value="7" />
