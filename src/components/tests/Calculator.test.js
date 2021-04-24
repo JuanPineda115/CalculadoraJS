@@ -8,7 +8,7 @@ describe('Calculator', () => {
         render(<Calculator></Calculator>)
     })
 
-    it('Deberia de renderizar la calculadora con el display vacio', () => {
+    it('Renderiza la calc con display vacio', () => {
         expect(screen.getAllByTestId("TodaCalc")).not.toBeNull();
         expect(screen.getAllByTestId("calcDisplay")).toBeDefined();
     })
